@@ -1,7 +1,6 @@
-/* --- CONFIGURATION GÉNÉRALE --- */
 body {
-  background-color: #EFF3F6; /* Gris légèrement différent, plus froid */
-  color: #3A3A3A; /* Texte principal plus sombre et neutre */
+  background-color: #EFF3F6; 
+  color: #3A3A3A; 
   font-family: 'Roboto', sans-serif;
   font-size: 17px;
   font-weight: 300;
@@ -11,7 +10,7 @@ body {
 
 h1, h2, h3 {
   font-family: 'Lora', serif;
-  color: #2C3E50; /* Titres d'un bleu ardoise très sombre */
+  color: #2C3E50; 
 }
 
 h1 { 
@@ -21,26 +20,25 @@ h1 {
 
 h2 { 
   font-size: 24px; 
-  color: #4A69BD; /* Un bleu plus classique et sobre pour les sections */
+  color: #4A69BD; 
 }
 
 a {
   text-decoration: none;
 }
 
-/* --- LAYOUT --- */
+
 .container {
   width: 90%;
   max-width: 700px;
   margin: 0 auto;
 }
 
-/* --- COMPOSANTS --- */
 .card-white {
   background-color: white;
   padding: 40px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.08); /* Ombre plus douce */
-  border-radius: 4px; /* Arrondis moins prononcés */
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08); 
+  border-radius: 4px; 
   margin-bottom: 25px;
   text-align: center;
 }
@@ -54,7 +52,7 @@ a {
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-/* --- RÉSEAUX SOCIAUX --- */
+
 .list-inline {
   list-style: none;
   padding: 0;
@@ -66,15 +64,14 @@ a {
 }
 
 .social-logo {
-  width: 40px; /* Taille pour tes fichiers insta.png et linkedin.png */
+  width: 40px; 
   transition: transform 0.2s ease;
 }
 
 .social-logo:hover {
-  transform: scale(1.05); /* Effet de zoom plus discret */
+  transform: scale(1.05);
 }
 
-/* --- TEXTE --- */
 .bio-text {
   line-height: 1.6;
   margin: 20px 0;
@@ -82,5 +79,5 @@ a {
 
 strong {
   font-weight: 700;
-  color: #2C3E50; /* Mots en gras dans la couleur des titres */
+  color: #2C3E50;
 }
